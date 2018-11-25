@@ -1,0 +1,14 @@
+Git Befehle:
+
+1. Projekt auschecken: 
+- wenn ein neuer Ordener erstellt wurde: git clone "URL des Repositorys (in deinem Fall: https://github.com/EichingerS/Bluetooth_RC)
+- wenn der Ordner Workspace schon existiert: git pull
+
+2. Projekt ändern 
+
+3. Projekt mit Änderungen wieder einchecken:
+- git add --all
+- git commit -m "dein Kommentar"
+- git push origin master
+
+Fertig!

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gespeicherteAdressen" >
+        <item>Adresse1</item>
+        <item>Adresse2</item>
+        <item>Adresse3</item>
+        <item>Adresse4</item>
+    </string-array>
+    <string-array name="neueAdressen" >
+        <item>Adresse1</item>
+        <item>Adresse2</item>
+        <item>Adresse3</item>
+        <item>Adresse4</item>
+    </string-array>
+    <string-array name="werte" >
+        <item>Wert1</item>
+        <item>Wert2</item>
+        <item>Wert3</item>
+        <item>Wert4</item>
+        <item>Wert5</item>
+        <item>Wert6</item>
+        <item>Wert7</item>
+        <item>Wert8</item>
+    </string-array>
+</resources>

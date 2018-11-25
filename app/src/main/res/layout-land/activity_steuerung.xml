@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".steuerung">
+
+
+    <SeekBar
+        android:id="@+id/steer_seekBar"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="342dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.986" />
+
+    <SeekBar
+        android:id="@+id/drive_seekBar"
+        style="@android:style/Widget.SeekBar"
+        android:layout_width="333dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="94dp"
+        android:layout_marginStart="240dp"
+        android:layout_weight="1"
+        android:rotation="270"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="355dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="424dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginStart="140dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046">
+
+        <TextView
+            android:id="@+id/text_view_1"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="text" />
+
+        <TextView
+            android:id="@+id/text_view_2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="text" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="test" />
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="127dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="542dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="88dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/RL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:ellipsize="middle"
+            android:text="RL"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/WB_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="WB"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/LH_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="LH"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/BL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="BL"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="18sp"
+            tools:textColorLink="@android:color/holo_blue_dark" />
+
+        <Button
+            android:id="@+id/BR_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="BR"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/AL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="AL"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/FL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="FL"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/NL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="NL"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/RL_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background = "@drawable/roundedbutton"
+            android:text="RL"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="319dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="426dp" />
+
+    <Button
+        android:id="@+id/forward_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="148dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginStart="258dp"
+        android:text="Vor"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toEndOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/reverse_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="40dp"
+        android:text="Zurück"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="Links"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/steer_seekBar"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="8dp"
+        android:text="Rechts"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/steer_seekBar" />
+
+</android.support.constraint.ConstraintLayout>
